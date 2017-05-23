@@ -1,12 +1,10 @@
-#Determine if a string is a rotation of another
+def is_substring(s1, s2):
+    return s1 in s2
 
-def is_rotation(str1, str2):
-    if(len(str1) == len(str2) and str1 in str2*2):
-        return True
-       # print("str1 is a rotation of str2")
-    else:
+
+def is_rotation(s1, s2):
+    if s1 is None or s2 is None:
         return False
-        #print("str1 is not a rotation of str2")
-
-value = is_rotation("sye","yes")
-print(value)
+    if len(s1) != len(s2):
+        return False
+    return self.is_substring(s1, s2 + s2)

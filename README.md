@@ -1,5 +1,5 @@
-# fsdse-python-assignment-102
-# Determine if a string is a rotation of another
+# Determine if a string s1 is a rotation of another string s2, by calling (only once) a function is_substring.
+
 #  Constraints
 * Can we assume the string is ASCII?
   * Yes
