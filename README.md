@@ -19,7 +19,7 @@
       
        Type:  String
        Value: s1 = 'hello'
-              s2 = 'ohlel'
+              s2 = 'ohleol'
 * Expected Output
 
         Type:  Boolean
